@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        .background{
+            background-image: linear-gradient(120deg, black,blueviolet,orange);
+            width: 500px;
+            height: 3000px;
+
+        }
+        .card{
+            background-image: linear-gradient(80deg, black,violet,red);
+            width: 400px;
+            height: 200px;
+            border-radius: 10px;
+            position: relative;
+            top: 250px;
+            left: 200px;
+        }
+        .circle_1{
+            border-radius: 25px;
+            width: 50px;
+            height: 50px;
+            background-color: whitesmoke;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .circle_2{
+            border-radius: 20px;
+            width: 20px;
+            height: 20px;
+            background-image: linear-gradient(20deg,black,violet) ;
+            outline:2px solid white;
+            position: absolute;
+            top: 15px;
+            left:70px ;
+        }
+        .num{
+            position:absolute;
+            top: 110px;
+            left: 20px;
+            font-size: 40px;
+            color: white;
+        }
+        .jane{
+            position: absolute;
+            top: 170px;
+            left: 20px;
+            font-size: 10px;
+            font-style: inherit;
+            color: whitesmoke;
+        }
+        .card_2{
+            background-color: rgb(219, 207, 207);
+            width: 400px;
+            height: 200px;
+            border-radius: 10px;
+            position: relative;
+            top: 200px;
+            left: 15px;
+
+        }
+        .black{
+            background-color: black;
+            width: 400px;
+            height: 50px ;
+            position: absolute;
+            top: 25px;
+        }
+        .gray{
+            background-color: gray;
+            border-radius: 10px;
+            width: 350px;
+            height: 35px ;
+            position: absolute;
+            top: 100px;
+            left: 25px;
+        }
+        .num2{
+            position: absolute;
+            top: 105px;
+            left:320px ;
+            font-size: 20px;
+            color: aliceblue;
+        }
+        
+        .num3{
+            position: absolute;
+            top: 170px;
+            left: 300px;
+            font-size: 15px;
+            font-style: inherit;
+            color: whitesmoke;
+
+        }
+        .bg2{
+            position: absolute;
+            left: 800px;
+    
+            font-style: inherit;
+        }
+        .ar_1{
+            width: 350px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        span{
+            margin-left: 30px;
+        }
+        .ar_2{
+            width:70px ;
+            height: 30px;
+            border-radius: 10px;
+        }
+        .ar_3{
+            width: 160px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        .space{
+            margin-left: 40px;
+        }
+        .but{
+            width: 350px;
+            height: 40px;
+            border-radius: 10px;
+            font-size: 20px;
+            color: aliceblue;
+            background-color: black;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div>
+        <div class="background">
+            <div class="card"><div class="num">0000 0000 0000 0000 </div><div class="jane">JANE APPLESEED </div><div class="num3">00/00</div>
+            <div class="circle_1">
+                <div class="circle_2">
+                <div class="card_2"><div class="black"></div><div class="gray"></div><div class="num2">000</div>
+                    </div></div></div></div>
+                    <form class="bg2">
+                        <label for="">CARDHOLDER NAME</label>
+                        <br>
+                        <input class="ar_1" type="text">
+                        <br><br>
+                        <label for="">CARD NUMBER</label>
+                        <br>
+                        <input class="ar_1" type="text">
+                        <br><br>
+                        <label for="">EXP.DATE (MM/YY)</label><label for=""><span class="space"> </span>CVC</label>
+                        <br>
+                        <input class="ar_2" type="text">
+                        <input class="ar_2" type="text"><span ></span>
+                        <input class="ar_3" type="text">
+                        <br><br>
+                        <button class="but">confirm</button>
+
+                    </form>
+                 </div>
+        
+    </div>
+
+    
+    
+</body>
+</html>
